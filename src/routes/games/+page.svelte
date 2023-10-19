@@ -1,7 +1,5 @@
 <script>
-	const games = [
-		{ name: 'Flip Coin', id: 'flip-coin', cover_url: '/images/flipcoin.png' },
-	];
+	const games = [{ name: 'Flip Coin', id: 'flip-coin', cover_url: '/images/flipcoin.png' }];
 </script>
 
 <div class="container">
