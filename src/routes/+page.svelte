@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import Scene from './Scene.svelte';
 </script>
 
@@ -13,11 +14,11 @@
 				</p>
 				<div class="mt-10 flex items-center gap-x-6">
 					<a
-						href="/games"
+						href="{base}/games"
 						class="rounded-full bg-indigo-600 px-8 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 						>Play</a
 					>
-					<a href="/help" class="text-sm font-semibold leading-6">Learn more </a>
+					<a href="{base}/help" class="text-sm font-semibold leading-6">Learn more </a>
 				</div>
 			</div>
 		</div>

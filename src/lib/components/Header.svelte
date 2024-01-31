@@ -1,7 +1,9 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	const links = [
-		{ path: '/', name: 'Home' },
-		{ path: '/games', name: 'Games' }
+		{ path: base + '/', name: 'Home' },
+		{ path: base + '/games', name: 'Games' }
 	];
 
 	let isShowMobileMenu = false;

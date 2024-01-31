@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import { games } from '$lib/const/games';
 </script>
 
@@ -7,7 +8,7 @@
 
 	<div class="grid grid-cols-4 gap-8 py-8">
 		{#each games as game}
-			<a href="/games/{game.id}" class="group card">
+			<a href="{base}/games/{game.id}" class="group card">
 				<div class="cover">
 					<img class="image" src={game.coverUrl} alt="cover {game.name}" />
 				</div>
