@@ -10,7 +10,7 @@
 		{#each games as game}
 			<a href="{base}/games/{game.id}" class="group card">
 				<div class="cover">
-					<img class="image" src={game.coverUrl} alt="cover {game.name}" />
+					<img class="image" src={base + game.coverUrl} alt="cover {game.name}" />
 				</div>
 				<p class="group-hover:text-gray-200 font-medium transition">{game.name}</p>
 			</a>

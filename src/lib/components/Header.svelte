@@ -12,7 +12,7 @@
 <header class="">
 	<nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
 		<div class="flex lg:flex-1">
-			<a href="/" class="flex space-x-2 text-white text-xl font-semibold items-center">
+			<a href="{base}/" class="flex space-x-2 text-white text-xl font-semibold items-center">
 				<svg
 					width="24px"
 					height="24px"
