@@ -27,6 +27,13 @@ export const games: Game[] = [
 		description: 'Roll the dice and see if you win!',
 		embedUrl: 'https://agam-w.github.io/dice-game',
 		coverUrl: '/images/diceroll.png'
+	},
+	{
+		id: 'slot-machine',
+		name: 'Slot Machine',
+		description: 'Spin the slot machine and see if you win!',
+		embedUrl: 'https://agam-w.github.io/slot-game',
+		coverUrl: '/images/slot.png'
 	}
 ];
 
